@@ -26,9 +26,9 @@ for (let i = 1; i<=100; i++){
         //Alora Stampo i + Buzz
         console.log('Buzz');
 
-    } else if (i%3==0 && i%5==0){ //se multiplo di 3 e 5
-        // Allora Stampo i + FizzBuzz
-        console.log('FizzBuzz');
+    } else if (i%3==0){ //se multiplo di 3 
+        // Allora Stampo i + Fizz
+        console.log('Fizz');
         
     } else {
         console.log(i);
